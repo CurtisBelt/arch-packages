@@ -10,3 +10,4 @@ install:
 clean:
 	rm -rf src pkg
 	rm -f *.pkg.tar
+	rm -f *.tar.gz
