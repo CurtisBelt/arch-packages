@@ -1,0 +1,21 @@
+pkgname=php-blackfire
+pkgver=1.22.0
+pkgrel=1
+pkgdesc='Blackfire Profiler - PHP extension'
+arch=('x86_64')
+url='https://blackfire.io'
+license=('custom')
+backup=('etc/php/conf.d/blackfire.ini')
+depends=('glibc')
+
+source=('blackfire.ini')
+
+source_x86_64=("blackfire.so-${pkgver}::http://packages.blackfire.io/binaries/blackfire-php/$pkgver/blackfire-php-linux_amd64-php-72.so")
+
+sha256sums=('15b9a666538c804008ea261ea89ea4dd5c66422767ae720ca98cd2a13135ad76')
+sha256sums_x86_64=('4ff77b4f074d492b7a8f6e3e47526012ea270261d32c98ad64579125935cb8b5')
+
+package(){
+  install -Dm 644 blackfire.ini "$pkgdir"/etc/php/conf.d/blackfire.ini
+  install -Dm 755 blackfire.so-${pkgver} "$pkgdir"/usr/lib/php/modules/blackfire.so
+}
