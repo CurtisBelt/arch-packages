@@ -1,5 +1,5 @@
 pkgname=dbeaver
-pkgver=5.1.6
+pkgver=5.2.0
 pkgrel=1
 pkgdesc="A universal database tool for developers and database administrators. Enterprise Edition includes NoSQL database support"
 arch=('x86_64')
@@ -12,7 +12,7 @@ source=(dbeaver.desktop dbeaver.install)
 source_x86_64=(https://dbeaver.jkiss.org/files/${pkgver}/dbeaver-ce-${pkgver}-linux.gtk.x86_64.tar.gz)
 sha256sums=('612a5c1453ce83688f3b40f19c287309bcb2c86206f8aca7b22835889b7c94a4'
             'a54659b53f1966395f7e296d448c42e1165ec38f5db20181a9e294f775e1c43b')
-sha256sums_x86_64=('d60ac0bcda90633fba89ca5088e7fb7095a285fe4787b45d35d546e86d53d7ff')
+sha256sums_x86_64=('4e024c9c3639a65b131b386bad32c22a45b558c6f727d9677da211f108c3428e')
 
 noextract=("dbeaver-ce-${pkgver}-linux.gtk.x86_64.tar.gz")
 
