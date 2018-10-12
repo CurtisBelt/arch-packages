@@ -4,7 +4,7 @@ all: install clean
 
 install:
 	updpkgsums
-	makepkg -si
+	makepkg -si --noconfirm
 	makepkg --printsrcinfo > .SRCINFO
 
 clean:
