@@ -1,6 +1,6 @@
 pkgbase = dbeaver
 	pkgdesc = A universal database tool for developers and database administrators. Enterprise Edition includes NoSQL database support
-	pkgver = 5.2.4
+	pkgver = 5.2.5
 	pkgrel = 1
 	url = https://dbeaver.com/
 	install = dbeaver.install
@@ -9,13 +9,13 @@ pkgbase = dbeaver
 	depends = java-runtime>=1.6
 	depends = gtk2
 	depends = gtk-update-icon-cache
-	noextract = dbeaver-ce-5.2.4-linux.gtk.x86_64.tar.gz
+	noextract = dbeaver-ce-5.2.5-linux.gtk.x86_64.tar.gz
 	source = dbeaver.desktop
 	source = dbeaver.install
 	sha256sums = 612a5c1453ce83688f3b40f19c287309bcb2c86206f8aca7b22835889b7c94a4
 	sha256sums = a54659b53f1966395f7e296d448c42e1165ec38f5db20181a9e294f775e1c43b
-	source_x86_64 = https://dbeaver.jkiss.org/files/5.2.4/dbeaver-ce-5.2.4-linux.gtk.x86_64.tar.gz
-	sha256sums_x86_64 = f7f27c8b8fb2481d26f3ad89b43f8dff4f85d5c2b7793a4f3f279ba34bc68bff
+	source_x86_64 = https://dbeaver.jkiss.org/files/5.2.5/dbeaver-ce-5.2.5-linux.gtk.x86_64.tar.gz
+	sha256sums_x86_64 = b581a8348d587577f58671ff6cf467a83114a2c3f03412474f11e625b07c4f76
 
 pkgname = dbeaver
 
