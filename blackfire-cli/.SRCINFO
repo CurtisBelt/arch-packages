@@ -1,12 +1,12 @@
 pkgbase = blackfire-cli
 	pkgdesc = Blackfire Profiler - Fire up your PHP Apps Performance
-	pkgver = 1.21.2
+	pkgver = 1.22.0
 	pkgrel = 1
 	url = https://blackfire.io
 	arch = x86_64
 	license = custom
-	source_x86_64 = blackfire-cli-1.21.2_x86_64::http://packages.blackfire.io/binaries/blackfire-agent/1.21.2/blackfire-cli-linux_amd64
-	md5sums_x86_64 = b3eb96c95fde42cd95b19024150ca126
+	source_x86_64 = blackfire-cli-1.22.0_x86_64::http://packages.blackfire.io/binaries/blackfire-agent/1.22.0/blackfire-cli-linux_amd64
+	md5sums_x86_64 = b70eed77ea049f9a5b00ac7308d5d255
 
 pkgname = blackfire-cli
 
