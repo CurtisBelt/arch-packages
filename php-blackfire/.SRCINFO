@@ -9,8 +9,8 @@ pkgbase = php-blackfire
 	backup = etc/php/conf.d/blackfire.ini
 	source = blackfire.ini
 	sha256sums = 15b9a666538c804008ea261ea89ea4dd5c66422767ae720ca98cd2a13135ad76
-	source_x86_64 = blackfire.so-1.24.2::http://packages.blackfire.io/binaries/blackfire-php/1.24.2/blackfire-php-linux_amd64-php-72.so
-	sha256sums_x86_64 = 490f9f3dff887a6c129f37fd331d2bef7f4c73b824372d13c870577e844b59c4
+	source_x86_64 = blackfire.so-1.24.2::https://packages.blackfire.io/binaries/blackfire-php/1.24.2/blackfire-php-linux_amd64-php-73.so
+	sha256sums_x86_64 = 1541bd0473bb3111c5bcbd32f7025e5e55f6dbb1b6b5f0994977aae7d91e41f8
 
 pkgname = php-blackfire
 
