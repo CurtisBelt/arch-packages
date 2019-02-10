@@ -1,6 +1,6 @@
 pkgbase = php-blackfire
 	pkgdesc = Blackfire Profiler - PHP extension
-	pkgver = 1.24.2
+	pkgver = 1.24.4
 	pkgrel = 1
 	url = https://blackfire.io
 	arch = x86_64
@@ -9,8 +9,8 @@ pkgbase = php-blackfire
 	backup = etc/php/conf.d/blackfire.ini
 	source = blackfire.ini
 	sha256sums = 15b9a666538c804008ea261ea89ea4dd5c66422767ae720ca98cd2a13135ad76
-	source_x86_64 = blackfire.so-1.24.2::https://packages.blackfire.io/binaries/blackfire-php/1.24.2/blackfire-php-linux_amd64-php-73.so
-	sha256sums_x86_64 = 1541bd0473bb3111c5bcbd32f7025e5e55f6dbb1b6b5f0994977aae7d91e41f8
+	source_x86_64 = blackfire.so-1.24.4::https://packages.blackfire.io/binaries/blackfire-php/1.24.4/blackfire-php-linux_amd64-php-73.so
+	sha256sums_x86_64 = d7a962c6a608f23a5cfa041af056e9cbef44358f195ae48c08e367f45a4a232f
 
 pkgname = php-blackfire
 
