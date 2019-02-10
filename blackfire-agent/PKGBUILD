@@ -1,5 +1,5 @@
 pkgname=blackfire-agent
-pkgver=1.22.0
+pkgver=1.22.1
 pkgrel=1
 pkgdesc='Blackfire Profiler - Fire up your PHP Apps Performance'
 arch=('x86_64')
@@ -12,7 +12,7 @@ source=('blackfire-agent.service')
 source_x86_64=("blackfire-agent-${pkgver}_x86_64::http://packages.blackfire.io/binaries/blackfire-agent/$pkgver/blackfire-agent-linux_amd64")
 
 sha256sums=('aec343bca2f712d0dd22ccb43128d479e0280847e9573c2f37c183478f1ebcf6')
-sha256sums_x86_64=('8347802599306bba064f90886986d21773ae315f678e30b312b2901afebab7a6')
+sha256sums_x86_64=('877ad39dea4a9b0d40f1ec97943abb7349c8558bebdce392d3f25a3b78ee0b58')
 
 package(){
   install -dm 755 "$pkgdir"/etc/blackfire
